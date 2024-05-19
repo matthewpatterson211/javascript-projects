@@ -4,9 +4,9 @@
 
    console.log("Hello, World!"); // Comments do not have to start at the beginning of a line.
 
-   /* Here is how
-   to have
+    //Here is how
+   /*to have
    multi-line
-   comments. */
+   comments.*/
 
-   console.log("Comments make your code more readable by others.");
+   //console.log("Comments make your code more readable by others.");
