@@ -11,17 +11,6 @@ let shuttleSpeed = 15000;
 
  
 
- //check shuttle speed
-
- if (shuttleSpeed > 17500) {
-   console.log("ALERT: Escape velocity reached!");
- } else if (shuttleSpeed < 8000) {
-   console.log("ALERT: Cannot maintain orbit!");
- } else {
-   console.log("Stable speed.");
- }
-
-
 if (engineIndicatorLight === "green") {
    console.log("engines have started");
 } else if (engineIndicatorLight === "green blinking") {
