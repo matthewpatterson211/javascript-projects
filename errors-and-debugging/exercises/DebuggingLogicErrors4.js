@@ -29,6 +29,8 @@ if (crewStatus && computerStatus === 'green'){
 
 console.log("launchReady = ", launchReady);
 
+//lauchReady is set as false in the first block and then reset as true in the second block. This is not working as intended.
+
 // if (launchReady) {
 //    console.log('10, 9, 8, 7, 6, 5, 4, 3, 2, 1...');
 //    console.log('Liftoff!');
