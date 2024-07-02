@@ -39,10 +39,19 @@ while (arr.length > 0){
 
 /* BONUS MISSION: Refactor your sorting function to use recursion below:
  */
+function recursiveSort (arr) {
+  if (arr.length <= 1) {
+    return arr[0];
+  } else {
+    let holdingCell = findMinValue(arr);
+    let minValueIndex = arr.indexOf(holdingCell);
+    return arr[0]+ recursiveSort(arr.splice(minValueIndex, 1))
+  }
+}
 
 //Sample arrays for testing:
 let nums1 = [5, 10, 2, 42];
 let nums2 = [-2, 0, -10, -44, 5, 3, 0, 3];
 let nums3 = [200, 5, 4, 10, 8, 5, -3.3, 4.4, 0];
 
-console.log(sortArray(nums3));
+console.log(recursiveSort(nums3));
