@@ -6,7 +6,10 @@ class Book {
        this.copyright = copyright;
        this.isbn = isbn;
        this.pages = pages;
-       this.timesCheckedOut = timesCheckedOut;
+    isbn
+    
+    
+    this.timesCheckedOut = timesCheckedOut;
        this.discarded = discarded;
     }
  
